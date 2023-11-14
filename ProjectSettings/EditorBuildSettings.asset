@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b84e130100b5b6f4c947d7eda4247375
+  - enabled: 1
+    path: Assets/Scenes/PrototypePuzzle.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PrototypePlatformer.unity
+    guid: a9c56f05032c19d4cbd851731611dcec
+  - enabled: 1
+    path: Assets/Scenes/PrototypeMix.unity
+    guid: 277b872ea0796484e9dcbf752794d352
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: cfd04ab27217f9444a0389eed97db622
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
