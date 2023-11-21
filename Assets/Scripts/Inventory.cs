@@ -29,9 +29,8 @@ public class Inventory : MonoBehaviour
                 secretMenu = FindAnyObjectByType<SecretMenu>();
                 secretMenu.image.color = Color.white;
             }
+            Destroy(this.gameObject);
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 0)
-            Destroy(this);
         else if (player == null)
         {
             player = GameObject.Find("Player").GetComponent<Player>();

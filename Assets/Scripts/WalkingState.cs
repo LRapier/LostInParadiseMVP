@@ -13,8 +13,8 @@ public class WalkingState : PlayerState
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + .75f, player.transform.position.z);
         player.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
         Move(rig);
-        RaycastHit2D hit1 = Physics2D.Raycast(player.transform.position - new Vector3(.55f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .05f);
-        RaycastHit2D hit2 = Physics2D.Raycast(player.transform.position - new Vector3(-.55f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .05f);
+        RaycastHit2D hit1 = Physics2D.Raycast(player.transform.position - new Vector3(.5f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .01f);
+        RaycastHit2D hit2 = Physics2D.Raycast(player.transform.position - new Vector3(-.5f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .01f);
         //Debug.Log("hit = " + hit.collider.name);
         if (!hit1 && !hit2)
         {

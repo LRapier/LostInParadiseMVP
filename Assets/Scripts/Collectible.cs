@@ -9,12 +9,13 @@ public class Collectible : MonoBehaviour
     public GameObject image;
     bool collected = false;
 
-    void Start()
+    void Update()
     {
-        inventory = GameObject.Find("Inventory").GetComponent<Inventory>(); 
+        if(inventory == null)
+            inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
         if (collected)
             return;

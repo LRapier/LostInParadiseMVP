@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
     {
         standState.Enter(this);
         Inventory inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
-        inventory.Backup();
+        if(inventory != null)
+            inventory.Backup();
     }
 
     private void Update()
