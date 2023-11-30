@@ -22,7 +22,7 @@ public class Inventory : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             if (hasSecret)
             {
