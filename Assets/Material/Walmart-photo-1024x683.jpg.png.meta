@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walmart-photo-1024x683.jpg_0: -4893728141936343023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
