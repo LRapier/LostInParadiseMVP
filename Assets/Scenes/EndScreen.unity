@@ -1782,7 +1782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A vertical slice by:'
+  m_text: 'An MVP by:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15ed5c4fb5be79a4cbeddfbad856e492, type: 2}
   m_sharedMaterial: {fileID: -5560792579110909464, guid: 15ed5c4fb5be79a4cbeddfbad856e492, type: 2}

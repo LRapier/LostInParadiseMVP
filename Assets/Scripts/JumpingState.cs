@@ -9,6 +9,7 @@ public class JumpingState : PlayerState
 
     public override void Enter(Player player)
     {
+        Debug.Log("jump");
         RaycastHit2D hit1 = Physics2D.Raycast(player.transform.position - new Vector3(.5f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .01f);
         RaycastHit2D hit2 = Physics2D.Raycast(player.transform.position - new Vector3(-.5f, 1.2f, 0f), player.transform.TransformDirection(Vector2.down), .01f);
         if (hit1 && hit1.collider.name != "Door")

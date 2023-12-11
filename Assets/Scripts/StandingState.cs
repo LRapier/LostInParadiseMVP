@@ -3,8 +3,9 @@ public class StandingState : PlayerState
 {
     public override void Enter(Player player)
     {
+        Debug.Log("stand");
         float x = Input.GetAxis("Horizontal");
-        player.GetComponent<Rigidbody2D>().velocity = new Vector2(x * 1.5f, 0f);
+        player.GetComponent<Rigidbody2D>().velocity = new Vector2(x * 1.5f, player.GetComponent<Rigidbody2D>().velocity.y);
         if(player.transform.localScale.y == 0.5f)
             player.transform.position = new Vector3(player.transform.position.x, player.transform.position.y + .75f, player.transform.position.z);
         player.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
