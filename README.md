@@ -2,6 +2,6 @@
  
 Play: https://lrapier.github.io/LostInParadiseMVP/
 
-Changelog v0.12:
+Changelog v0.13:
 
-Added an intro cutscene
+Gave unique sprites to platforms, fixed floating for a moment when landing while not moving
